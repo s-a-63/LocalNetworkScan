@@ -43,15 +43,15 @@ To discover active hosts and open ports within the local network in order to und
 ---
 
 ## Security Observations
--The router (192.168.1.1) exposes common services like DNS and HTTP(S); remote admin should be disabled unless needed.
--192.168.1.70 (my system) exposes SMB (file sharing) and MySQL:
-  -These can be potential entry points if not firewalled or secured.
--The iOS device exposes sync services — no immediate concern.
--192.168.1.231 is likely well-secured with no visible open ports.
+- The router (192.168.1.1) exposes common services like DNS and HTTP(S); remote admin should be disabled unless needed.
+- 192.168.1.70 (my system) exposes SMB (file sharing) and MySQL:
+  - These can be potential entry points if not firewalled or secured.
+- The iOS device exposes sync services — no immediate concern.
+- 192.168.1.231 is likely well-secured with no visible open ports.
 
 ---
 
 ## 🧠 Learnings
--Understood how to perform stealth scans on a network
--Learned how to interpret open ports and map them to services
--Gained awareness of local device exposure and the importance of port filtering
+- Understood how to perform stealth scans on a network
+- Learned how to interpret open ports and map them to services
+- Gained awareness of local device exposure and the importance of port filtering
