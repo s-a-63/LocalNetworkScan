@@ -1,0 +1,37 @@
+# Nmap 7.95 scan initiated Mon May 26 16:58:58 2025 as: nmap -sS -oN output.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.032s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  filtered ftp
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 44:A1:91:FF:D1:79 (Huawei Technologies)
+
+Nmap scan report for 192.168.1.88
+Host is up (0.064s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 02:18:DA:FA:F5:3E (Unknown)
+
+Nmap scan report for 192.168.1.231
+Host is up (0.015s latency).
+All 1000 scanned ports on 192.168.1.231 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: BE:D9:81:9B:F1:BE (Unknown)
+
+Nmap scan report for 192.168.1.70
+Host is up (0.00056s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+# Nmap done at Mon May 26 16:59:10 2025 -- 256 IP addresses (4 hosts up) scanned in 11.98 seconds
