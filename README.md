@@ -35,7 +35,7 @@ To discover active hosts and open ports within the local network in order to und
 
 | IP Address    | Open Ports          | Services                   | Notes                                      |
 | ------------- | ------------------- | -------------------------- | ------------------------------------------ |
-| 192.168.1.1   | 53, 80, 443         | DNS, HTTP, HTTPS           | Likely router (Huawei); filtered ports too |
+| 192.168.1.1   | 53, 80, 443         | DNS, HTTP, HTTPS           | Likely router; filtered ports too |
 | 192.168.1.88  | 49152, 62078        | Dynamic, iPhone-sync       | Possibly an iOS device                     |
 | 192.168.1.231 | None (all closed)   | —                          | Device detected, but no open ports         |
 | 192.168.1.70  | 135, 139, 445, 3306 | MSRPC, NetBIOS, SMB, MySQL | Windows system with exposed services       |
@@ -48,6 +48,14 @@ To discover active hosts and open ports within the local network in order to und
   - These can be potential entry points if not firewalled or secured.
 - The iOS device exposes sync services — no immediate concern.
 - 192.168.1.231 is likely well-secured with no visible open ports.
+
+---
+
+## 📂 Files in this Repository
+### ▶️  [`Documents/`](./Documents/)
+- output-task1.txt – Raw Nmap scan results
+- Task-1 Local Network Scan - Word document containing analysis of the scan
+- Screenshot of the scan result
 
 ---
 
