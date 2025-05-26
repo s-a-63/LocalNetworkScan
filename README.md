@@ -23,7 +23,7 @@ To discover active hosts and open ports within the local network in order to und
    ```bash
     nmap -sS 192.168.1.0/24 -oN local_network_scan.txt
    -sS: Performs a stealthy TCP SYN scan
-   -oN: Saves the output to a normal text file (local_network_scan.txt)
+   -oN: Saves the output to a normal text file (output-task1.txt)
 3. **Documented and Analyzed the Results**
   - Extracted IPs with open ports
   - Mapped ports to common services
@@ -44,7 +44,7 @@ To discover active hosts and open ports within the local network in order to und
 
 ## Security Observations
 - The router (192.168.1.1) exposes common services like DNS and HTTP(S); remote admin should be disabled unless needed.
-- 192.168.1.70 (my system) exposes SMB (file sharing) and MySQL:
+- 192.168.1.70 exposes SMB (file sharing) and MySQL:
   - These can be potential entry points if not firewalled or secured.
 - The iOS device exposes sync services — no immediate concern.
 - 192.168.1.231 is likely well-secured with no visible open ports.
